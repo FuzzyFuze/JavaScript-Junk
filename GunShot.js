@@ -13,6 +13,7 @@ The Start() function ensures the audio clip does not loop and clears the SetActi
 Update() checks if the key bind was pressed and acts accordingly, if the key is in any state except for being pressed during any given frame, then the muzzle flash components are hidden.
 This module could easily be expanded to handle the logic for spawning a bullet or shell casing animation when a weapon is fired.
 */
+
 #pragma strict
 
 @script RequireComponent(AudioSource) 
