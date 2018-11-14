@@ -5,7 +5,7 @@ Only works with Unity versions that support JavaScript!
 Tested with Unity 2017.3.1f1 (64-bit).
 --------------------------------------------------------------------------------
 Must be attached to a GameObject.
-Update() checks the name of the GameObject the script is attached, to see if it matches the name of the Target.
+Update() checks the name of the GameObject on which the script is attached, to see if it matches the name of the Target.
 Destroys the target object after float countdown (lifeTime).
 */
 
